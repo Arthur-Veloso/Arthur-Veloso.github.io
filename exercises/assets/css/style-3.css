@@ -1,3 +1,5 @@
+/* Arthur Veloso 77933 */
+
 /*  ============= WEB BROWSER RESETS ============ */
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
@@ -335,6 +337,9 @@ p {
 .section-3 {background-color: var(--lime-300);}
 
 .section-4 {background-color: var(--trend-700);}
+
+.section-4 h2,
+.section-4 p { color: white;}
 
 .section-5 {background-color: var(--purple-300);}
 

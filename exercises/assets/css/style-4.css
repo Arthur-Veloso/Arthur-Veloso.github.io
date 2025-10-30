@@ -1,3 +1,6 @@
+/* Arthur Veloso 77933 */
+
+
 /*  ============= WEB BROWSER RESETS ============ */
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
@@ -349,6 +352,22 @@ img {
     height: 100%;
 }
 
+a:link, a:visited {
+    color: #000; 
+    transition: all 0.3s ease;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000;
+    text-underline-offset: 7px;
+}
+
+a:hover, a:focus, a:active {
+    color: var(--yellow-700);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--blue-600);
+    text-underline-offset: 7px;
+}
+
+/* ======== HYPERLINKS ======== */
 a:link, a:visited {
     color: #000; 
     transition: all 0.3s ease;
